@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality Executor | Best Roblox Script Utility</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-fire"></i> FATALITY
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#features">Features</a>
+            <a href="#tutorial">Tutorial</a>
+            <a href="#community">Community</a>
+        </div>
+        <a href="https://github.com/andrew20021214-ops/executorsite/releases/download/fatality/fatality.zip" target="_blank" class="btn-primary small">Get Started</a>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="dot"></span> STATUS: UNDETECTED
+                </div>
+                <h1>DOMINATE <br><span class="gradient-text">THE GAME</span></h1>
+                <p>The most powerful Level 8 Roblox executor. Experience 98% SUNC compatibility, lightning-fast injection, and a massive script hub.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/andrew20021214-ops/executorsite/releases/download/fatality/fatality.zip" target="_blank" class="btn-primary"><i class="fa-brands fa-windows"></i> Download Now</a>
+                    <a href="https://discord.gg/7wMHk9EWZs" target="_blank" class="btn-secondary"><i class="fa-brands fa-discord"></i> Join Discord</a>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="count" id="member-count" data-target="53">0</span>
+                        <span class="label">Total Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="count" id="online-count" data-target="16">0</span>
+                        <span class="label">Online Users</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="count" data-target="4500">0</span><span class="plus">+</span>
+                        <span class="label">Scripts in Hub</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="card-stack">
+                    <img src="executorphoto.png" alt="Fatality Executor Interface" class="executor-img" draggable="false">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2>WHY CHOOSE <span class="gradient-text">FATALITY</span>?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized C++ architecture ensures 0ms delay injection and execution.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Safe & Secure</h3>
+                    <p>Advanced encryption and bypass methods keep your account safe from banwaves.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                    <h3>98% SUNC</h3>
+                    <p>Industry leading compatibility. Runs complex scripts like Owl Hub, Dark Dex, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Script Cloud</h3>
+                    <p>Access thousands of community scripts directly from the executor UI.</p>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <section id="download" class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to Break Limits?</h2>
+                <p>Join over 10,000 users dominating Roblox today.</p>
+                <a href="https://github.com/andrew20021214-ops/executorsite/releases/download/fatality/fatality.zip" target="_blank" class="btn-primary large glow-effect">Download Fatality v2.4</a>
+                <p class="disclaimer">Supports Windows 10/11 • Last updated: <span id="last-updated">Just now</span></p>
+            </div>
+        </section>
+
+        <section id="tutorial" class="tutorial-section">
+            <div class="section-header">
+                <h2>WATCH <span class="gradient-text">TUTORIAL</span></h2>
+                <p>See Fatality in action. Simple, fast, and powerful.</p>
+            </div>
+            <div class="video-container" id="videoContainer">
+                <video id="tutorialVideo" src="tutorial.mp4" poster="executorphoto.png" playsinline></video>
+                <div class="play-button" id="playBtn">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">FATALITY</div>
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="copyright">© 2026 Fatality Executor. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Download Modal -->
+    <div class="download-modal" id="downloadModal">
+        <div class="modal-content">
+            <div class="spinner"></div>
+            <h3>Downloading Fatality...</h3>
+            <p>Your download should start automatically.</p>
+            
+            <div class="feature-highlight">
+                <i class="fa-solid fa-rotate"></i>
+                <strong>Auto-Update Included</strong>
+                <span>You never need to manually download updates again! Fatality updates itself automatically.</span>
+            </div>
+            
+            <button class="close-modal" onclick="document.getElementById('downloadModal').classList.remove('active')">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
